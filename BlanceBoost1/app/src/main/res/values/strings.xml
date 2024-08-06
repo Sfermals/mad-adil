@@ -1,0 +1,7 @@
+<resources>
+    <!-- Existing strings -->
+    <string name="app_name">BlanceBoost1</string>
+
+    <!-- New string resource -->
+    <string name="profile_image">Profile Image</string>
+</resources>

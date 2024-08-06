@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/intensityLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intensity Beginner Level"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/workoutImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beginner"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/workoutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="These exercises are great for starting a fitness routine that can be performed without any special equipment"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/workoutDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- 5x Jumping Jacks\n- 20x Push-Ups\n- Squats\n- Plank"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/letDoThisButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LET DO THIS!"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_500"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp" />
+
+</LinearLayout>
